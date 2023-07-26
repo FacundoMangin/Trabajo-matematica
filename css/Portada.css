@@ -41,7 +41,7 @@ header .logo-presentacion {
 @media screen and (max-width: 500px) {
   header {
     height: 100vh;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8823529412), rgba(0, 0, 0, 0.8823529412)), url(../imagenes/fondo-header-celular.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.774)), url(../imagenes/fondo-pantalla-celular.jpg);
     background-size: 100% 100%;
   }
 }

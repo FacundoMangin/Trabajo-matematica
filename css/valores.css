@@ -70,3 +70,43 @@
     width: 30rem;
     box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
 }
+
+.valor-posicional-2{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .container-valores{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .posicion{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .posicion img{
+        width: 80%;
+    }
+
+    .valor-posicional img{
+        display: none;
+    }
+
+    .valor-posicional-2 img{
+        width: 80%;
+        box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
+    }
+
+    .valor-posicional-2{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+  } 
