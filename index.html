@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./css/Portada.css">
     <link rel="stylesheet" href="./css/Sobre-nosotros.css">
     <link rel="stylesheet" href="./css/videos-portada.css">
+    <link rel="stylesheet" href="./css/juego.css">
+    <link rel="stylesheet" href="./css/valores.css">
 
 
 
@@ -39,6 +41,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+
+    <!-- letra Style  font-family: 'Caprasimo', cursive;  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
     
     
     <title>Trabajo Matemática</title>
@@ -58,32 +71,40 @@
         </section> 
     </header>
 
-    <section id="sobre-nosotros">
-        <div class="container tarjetas">
-          
-            <div class="card" type="button" data-bs-toggle="modal">
-                <!-- SACAR EL MODAL Y QUE TE MANDE DIRECTO A LA PÁGINA -->
-                <img src="./imagenes/valor posicional.jpg">
+
+
+    <section id="valores">
+        <div class="container container-valores">
+            <div class="valor-no-posicional">
                 <h4>Número no posicional</h4>
                 <p> el valor del símbolo utilizado no depende de la posición que ocupa en la expresión del número.
                     Un ejemplo de este tipo de sistemas es el sistema de los números romanos.                    
                 </p>
-                <a href="./posicional.html" class="leer-mas"><p>Leer mas</p></a>
+                <a href="./posicional.html" class="leer-mas">Leer mas</a>
             </div>
-            
-            <div class="card" type="button" data-bs-toggle="modal">
+                <div class="posicion">
+                    <img src="./imagenes/valor posicional.jpg">
+                </div>
+            </div>  
+        </div>
+
+        <div class="container container-valores">
+            <div class="valor-posicional">
                 <img src="./imagenes/valor absoluto.jpg">
-                <h4>Número posicional</h4>
-                <p> En ellos la posición de una
-                    cifra nos dice si son decenas, centenas o en general la potencia de la base correspondiente.
-                    Sólo tres culturas además de la india lograron desarrollar un sistema de este tipo. Babilonios, chinos
-                    y mayas .
-                </p>
-                <a href="./no-posicional.html" class="leer-mas"><p>Leer mas</p></a>
             </div>
-            
+                <div class="posicion-2">
+                    <h4>Número posicional</h4>
+                    <p> En ellos la posición de una
+                        cifra nos dice si son decenas, centenas o en general la potencia de la base correspondiente.
+                        Sólo tres culturas además de la india lograron desarrollar un sistema de este tipo. Babilonios, chinos
+                        y mayas .
+                    </p>
+                    <a href="./no-posicional.html" class="leer-mas">Leer mas</a>
+                </div>
+            </div>   
         </div>
     </section>
+
 
     <section>
         <div class="valor">
@@ -104,6 +125,12 @@
 
     </section>
 
+    <section>
+        <div class="juego">
+            <h1>Aca va el juego falta el diseño</h1>
+        </div>
+    </section>
+
     <footer id="footer">
         
         <div class="contenedor-footer">
@@ -117,10 +144,12 @@
             </div>
 
             <div class="horarios">
-                <h1>Adana Farías</h1>
-                <p>Primero inicial</p>
-                <p>Instituto de formación docente N°115</p>
-                <p>Fecha de entrega: <span>01/08/2023</span></p>
+                <h1>Profesora: Adana Farías</h1>
+                <div class="informacion-materia">
+                    <p>Primero inicial</p>
+                    <p>Instituto de formación docente N°115</p>
+                    <p>Fecha de entrega: <span>01/08/2023</span></p>
+                </div>
             </div>
                 
         </div>

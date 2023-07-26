@@ -3,7 +3,7 @@
     justify-content: center;
     padding: 5% 5%;
     border: 3px solid rgb(192, 192, 192);
-    background-color: #fcfcda;
+    background-color: #d291bc;
 }
 
 .iframe-valor{
@@ -16,8 +16,16 @@
     text-align: center;
 }
 
+.iframe-valor iframe{
+    box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
+}
+
 .iframe-valor h1{
     padding-bottom: 2rem;
+    font-family: 'Caprasimo', cursive;
+    color: #fff0ea;
+    text-shadow: 1px 1px 5px black;
+    font-size: 3rem;
 }
 
 

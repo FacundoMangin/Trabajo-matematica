@@ -3,7 +3,7 @@
 /*---------------------------------------------------------------------------------------- */
 
 :root{
-    --color-fondo-footer: #ffffe5;                                      /* fondo-footer  */
+    --color-fondo-footer: #fdcedf;                                      /* fondo-footer  */
     --color-borde-margen-arriba: rgb(218, 218, 218);                    /* borde-margen-arriba  */
     --color-logo:rgb(255, 255, 255);                                    /* logo redes sociales */
     --color-facebook: rgb(0, 89, 255);                                  /* facebook  */
@@ -35,10 +35,23 @@ footer{
 
 
 /* -------------------------Red Social-------------------------------*/
+.red-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 35rem;
+    background-color: wheat;
+    padding-top: 20px;
+    border-radius: 2rem;
+    border: 2.5px solid rgb(204, 204, 204);
+    box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
+}
+
 
 .contenedor-footer .red-social h1{
     font-size: var(--tamaño-titulo);
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     color: rgb(92, 92, 92);
     font-weight: bold;
 }
@@ -80,15 +93,6 @@ footer{
 }
 
 
-.red-social{
-    width: 35rem;
-    background-color: wheat;
-    padding-top: 17px;
-    border-radius: 2rem;
-    border: 2.5px solid rgb(204, 204, 204);
-    box-shadow: 0px 0px 40px -5px rgba(0,0,0,0.75);
-}
-
 
 
 
@@ -103,7 +107,7 @@ footer{
 }
 
 .horarios h1 {
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     font-size: var(--tamaño-titulo);
     color: rgb(92, 92, 92);
     font-weight: bold;
@@ -117,6 +121,14 @@ footer{
 .horarios span {
     font-weight: bold;
     color: rgb(90, 90, 90);
+}
+
+.informacion-materia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
 }
 
 
