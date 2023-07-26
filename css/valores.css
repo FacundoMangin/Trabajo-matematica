@@ -71,7 +71,7 @@
     box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
 }
 
-.valor-posicional-2{
+.valor-posicional-2 img{
     display: none;
 }
 
@@ -99,6 +99,7 @@
     }
 
     .valor-posicional-2 img{
+        display: flex;
         width: 80%;
         box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
     }
