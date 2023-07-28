@@ -1,24 +1,31 @@
+.dos-juegos{
+    display: flex;
+    justify-content: center;
+    background-color: #fcb3c9;
+    gap: 5rem;
+}
+
 .juego{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 40px;
     height: 100%;
     padding: 3.5% 0;
     background-color: #fcb3c9;
+    gap: 3rem;
 }
 
 .juego h1{
     text-align: center;
     font-size: clamp(2rem, 4rem, 15vw);
     font-family: 'Caprasimo', cursive;
-    color: #fff0ea;
+    color: #fffbfb;
     text-shadow: 1px 1px 5px black;
 }
 
 .juego img{
-    width: clamp(4rem, 40rem, 80vw);
+    width: clamp(4rem, 30rem, 80vw);
     height: auto;
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
@@ -55,4 +62,18 @@
         padding: 10% 0;
     }
   
+  } 
+
+  @media screen and (max-width: 1150px){
+  
+    .dos-juegos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .juego{
+        padding: 1.5rem;
+    }
   } 
