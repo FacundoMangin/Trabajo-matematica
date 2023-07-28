@@ -1,31 +1,58 @@
+#posicional{
+    background: rgb(255, 220, 177);
+}
+
+.titulo-inicial h1{
+    font-size: clamp(2.5rem, 7.5rem, 15vw);
+    text-align: center;
+    padding: 1rem;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: rgb(139, 84, 12);
+    font-family: 'Lilita One', cursive;
+}
+
+.titulo-inicial p{
+    font-size: clamp(1rem, 2.5rem, 5vw);
+    text-align: center;
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
 .definicion-sist-babilonico {
     display: flex;
     flex-direction: column;
     height: fit-content;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: aqua;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 224, 187);
 }
 
 .titulo{
-    font-size: clamp(2.5rem, 5.5rem, 15vw);
+    font-size: clamp(2.5rem, 6rem, 15vw);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(77, 77, 77);
+    color: rgb(139, 84, 12);
+    font-family: 'Lilita One', cursive;
+    padding: 1.5rem 2rem;
 }
 
 p {
-    font-size: clamp(1rem, 1.4rem, 15vw);
+    font-size: clamp(1rem, 2rem, 15vw);
+    text-align: center;
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 .aritmetica-babilona {
     display: flex;
     height: fit-content;
     flex-direction: column;
-    background-color: blueviolet;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding: 1.5rem 1rem 1.5rem 1rem;
 }
 
 .textos{
@@ -34,6 +61,53 @@ p {
     gap: 15px;
 }
 
-.textos img{
-    width: 300px;
+
+.texto p{
+    font-size: clamp(0.8rem, 2rem, 15vw);
+    text-align: center;
+    padding: 0 10%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
 }
+
+.container-posicional{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3% 0%;
+}
+
+.posicion img{
+    width: clamp(20rem, 30rem, 90vw);
+    box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
+}
+
+.posicion-1 img{
+    width: clamp(20rem, 30rem, 90vw);
+    box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
+}
+
+.posicion-2 img{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1050px){
+    .container-posicional{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .posicion img{
+        display: none;
+    }
+
+    .posicion-2 img{
+        display: flex;
+        box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
+        width: clamp(20rem, 30rem, 90vw);
+    }
+  
+  } 
