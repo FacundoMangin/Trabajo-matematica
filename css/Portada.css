@@ -45,7 +45,7 @@ header .logo-presentacion {
     background-size: 100% 100%;
   }
 }
-@media screen and (max-width: 1000px) and (min-height: 300px) {
+@media screen and (max-width: 1300px) and (min-height: 300px) {
   header .textos-header {
     display: none;
   }
@@ -57,7 +57,7 @@ header .logo-presentacion {
     text-shadow: 5px 5px 15px rgb(121, 19, 124);
   }
   header .titulo-logo-celular h1 { /*texto 1 Tamaño*/
-	font-size: clamp(3rem, 10rem, 15vw);
+	font-size: clamp(3rem, 7rem, 15vw);
     line-height: 0.8;
     margin: 0 0 0 0 !important;
   }
