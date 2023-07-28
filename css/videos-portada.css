@@ -1,7 +1,7 @@
 .valor{
     display: flex;
     justify-content: center;
-    padding: 5% 5%;
+    padding: 3.5% 5% 2% 5%;
     border: 3px solid rgb(192, 192, 192);
     background-color: #d291bc;
 }
@@ -37,7 +37,7 @@
         flex-direction: column;
         padding: 5% 5%;
         border: 3px solid rgb(192, 192, 192);
-        background-color: #fcfcda;
+        gap: 3rem;
     }
   
   } 
@@ -46,5 +46,4 @@
     .iframe-valor iframe{
         width: 100%;
     }
-
 } 

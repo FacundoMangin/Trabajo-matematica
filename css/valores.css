@@ -108,6 +108,27 @@
         display:flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 2rem;
+    }
+
+    .posicion-2 h4{
+        display: flex;
+        text-align: center;
+    }
+
+    .valor-no-posicional h4{
+        display: flex;
+        text-align: center;
+    }
+
+    .posicion-2 p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .valor-no-posicional p{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
   
   } 
