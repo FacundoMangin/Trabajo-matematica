@@ -39,7 +39,7 @@
 }
 
 p {
-    font-size: clamp(1rem, 2rem, 15vw);
+    font-size: clamp(1rem, 2.5rem, 5vw);
     text-align: center;
     padding: 0 10%;
     font-family: 'Poppins', sans-serif;
@@ -63,7 +63,7 @@ p {
 
 
 .texto p{
-    font-size: clamp(0.8rem, 2rem, 15vw);
+    font-size: clamp(0.8rem, 2rem, 5vw);
     text-align: center;
     padding: 0 10%;
     color: black;
