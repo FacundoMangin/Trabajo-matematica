@@ -3,7 +3,7 @@
 }
 
 .titulo-inicial h1{
-    font-size: clamp(2.5rem, 7.5rem, 15vw);
+    font-size: clamp(2.5rem, 4.5rem, 15vw);
     text-align: center;
     padding: 1rem;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
@@ -12,7 +12,7 @@
 }
 
 .titulo-inicial p{
-    font-size: clamp(1rem, 2.5rem, 5vw);
+    font-size: clamp(1rem, 1.3rem, 5vw);
     text-align: center;
     padding: 0 10%;
     font-family: 'Poppins', sans-serif;
@@ -30,7 +30,7 @@
 }
 
 .titulo{
-    font-size: clamp(2.5rem, 6rem, 15vw);
+    font-size: clamp(2.5rem, 3.5rem, 15vw);
     text-align: center;
     text-shadow: 1px 1px 2px rgb(77, 77, 77);
     color: rgb(139, 84, 12);
@@ -39,7 +39,7 @@
 }
 
 p {
-    font-size: clamp(1rem, 2.5rem, 5vw);
+    font-size: clamp(1rem, 1.2rem, 5vw);
     text-align: center;
     padding: 0 10%;
     font-family: 'Poppins', sans-serif;
@@ -63,7 +63,7 @@ p {
 
 
 .texto p{
-    font-size: clamp(0.8rem, 2rem, 5vw);
+    font-size: clamp(0.8rem, 1rem, 5vw);
     text-align: center;
     padding: 0 10%;
     color: black;
@@ -79,12 +79,12 @@ p {
 }
 
 .posicion img{
-    width: clamp(20rem, 30rem, 90vw);
+    width: clamp(20rem, 20rem, 90vw);
     box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
 }
 
 .posicion-1 img{
-    width: clamp(20rem, 30rem, 90vw);
+    width: clamp(20rem, 20rem, 90vw);
     box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
 }
 
@@ -107,7 +107,7 @@ p {
     .posicion-2 img{
         display: flex;
         box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
-        width: clamp(20rem, 30rem, 90vw);
+        width: clamp(20rem, 20rem, 90vw);
     }
   
   } 
