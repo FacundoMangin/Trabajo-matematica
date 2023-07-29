@@ -52,7 +52,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem 1rem 1.5rem 1rem;
+    padding: 0 1rem 2rem 1rem;
 }
 
 .textos{
@@ -98,6 +98,8 @@ p {
     .container-posicional{
         display: flex;
         flex-direction: column;
+        gap: 3rem;
+        padding: 0;
     }
 
     .posicion img{
