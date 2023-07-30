@@ -26,7 +26,6 @@
 
 .juego img{
     width: clamp(4rem, 30rem, 80vw);
-    height: clamp(4rem, 30rem, 80vw);
     height: auto;
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
@@ -74,7 +73,4 @@
         gap: 0;
     }
 
-    .juego{
-        padding: 1.5rem;
-    }
   } 
